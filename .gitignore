@@ -428,3 +428,34 @@ CAPA_DATOS/bin/
 UI_USAV/bin/UI/error_log.txt
 UI/error_log.txt
 
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.vs/
+.vs/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Production.json
+
+# Paquetes
+packages/
+*.nupkg
+
+# Logs
+logs/
+*.log
+
+# Archivos generados
+Generated_Code/
+*.generated.cs
+
+# Carpeta de dependencias
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
